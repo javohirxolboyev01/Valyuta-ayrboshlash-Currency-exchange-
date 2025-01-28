@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(10, 14, 240, 0.527);
+    color: #050505;
+}
+#valyuta{
+    background: rgb(171, 197, 245);
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+}
+#valyuta span{
+    font-family: sans-serif;
+    font-size: 1.2em;
+
+}
+#valyuta .btn{
+    padding:5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+
+}
+#valyuta .btn:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+    transition: 1s;
+}
+#valyuta input{
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 2px;
+    border: none;
+
+}
+select{
+    display: flex;
+   margin-top: 25px;
+}
+.dives{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  border-bottom: 5px;
+  font-family: sans-serif;
+    
+}
+.dives h3{
+    margin-left: -25px;
+}
+.spaaans{
+    color: red;
+    margin-left: 10px;
+}
+
